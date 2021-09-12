@@ -982,7 +982,7 @@ class LineChart extends AbstractChart<LineChartProps, LineChartState> {
                   contentOffset: { x: scrollableDotHorizontalOffset }
                 }
               }
-            ])}
+            ],{useNativeDriver:false})}
             horizontal
             bounces={false}
           />
